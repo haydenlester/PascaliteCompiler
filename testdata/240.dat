@@ -1,0 +1,36 @@
+program stage2no240;   {CS 4301 Lab 12; determine GCD}
+  var h, u, v, gcd, rem:integer;
+  begin    
+    read(h);
+    while h > 0 do
+      begin
+        read(u, v);
+        write(u, v);
+
+        if u < 0 then
+          u := u * -1;
+
+        if (v < 0) then
+          v := v * -1;
+          
+        if (u = 0) then
+          gcd := v;
+
+        else if v = 0 then
+          gcd := u;
+
+        else
+          begin
+            repeat
+              rem := u mod v;
+              u := v;
+              v := rem;
+            until rem = 0;
+            gcd := u;
+          end;
+
+        write(gcd);
+      
+        h := h - 1;
+      end;
+  end.

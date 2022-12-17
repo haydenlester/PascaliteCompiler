@@ -1,0 +1,28 @@
+program stage2no239;   {CS 4301 Lab 11; determine the date of Easter}
+  var x,a,b,c,d,e,f,g,h,i,k,l,m,n,p:integer;
+      counter:integer;
+  begin    
+    counter := 0;
+    repeat
+      read(x);
+      a := x mod 19;
+      b := x div 100;
+      c := x mod 100;
+      d := b div 4;
+      e := b mod 4;
+      f := (b + 8) div 25;
+      g := (b - f + 1) div 3;
+      h := (19 * a + b - d - g + 15) mod 30;
+      i := c div 4;
+      k := c mod 4;
+      l := (32 + 2 * e + 2 * i - h - k) mod 7;
+      m := (a + 11 * h + 22 * l) div 451;
+      n := (h + l - 7 * m + 114) div 31;
+      p := (h + l - 7 * m + 114) mod 31;
+      write(n);
+      p := p + 1;
+      write(p);
+      write(x);
+      counter := counter + 1;
+    until counter = 40;
+  end.

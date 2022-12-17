@@ -1,0 +1,78 @@
+program stage2no237;
+  var
+var000,var001,var002,var003,var004,var005,var006,var007,var008,var009,
+var010,var011,var012,var013,var014,var015,var016,var017,var018,var019,
+var020,var021,var022,var023,var024,var025,var026,var027,var028,var029,
+var030,var031,var032,var033,var034,var035,var036,var037,var038,var039,
+var040,var041,var042,var043,var044,var045,var046,var047,var048,var049,
+var050,var051,small
+: integer;
+begin
+  read(
+       var000,var001,var002,var003,var004,var005,var006,var007,var008,var009,
+       var010,var011,var012,var013,var014,var015,var016,var017,var018,var019,
+       var020,var021,var022,var023,var024,var025,var026,var027,var028,var029,
+       var030,var031,var032,var033,var034,var035,var036,var037,var038,var039,
+       var040,var041,var042,var043,var044,var045,var046,var047,var048,var049,
+       var050,var051
+      );
+  if var000 < var001 then begin
+  if var000 < var002 then begin
+  if var000 < var003 then begin
+  if var000 < var004 then begin
+  if var000 < var005 then begin
+  if var000 < var006 then begin
+  if var000 < var007 then begin
+  if var000 < var008 then begin
+  if var000 < var009 then begin
+  if var000 < var010 then begin
+  if var000 < var011 then begin
+  if var000 < var012 then begin
+  if var000 < var013 then begin
+  if var000 < var014 then begin
+  if var000 < var015 then begin
+  if var000 < var016 then begin
+  if var000 < var017 then begin
+  if var000 < var018 then begin
+  if var000 < var019 then begin
+  if var000 < var020 then begin
+  if var000 < var021 then begin
+  if var000 < var022 then begin
+  if var000 < var023 then begin
+  if var000 < var024 then begin
+  if var000 < var025 then begin
+  if var000 < var026 then begin
+  if var000 < var027 then begin
+  if var000 < var028 then begin
+  if var000 < var029 then begin
+  if var000 < var030 then begin
+  if var000 < var031 then begin
+  if var000 < var032 then begin
+  if var000 < var033 then begin
+  if var000 < var034 then begin
+  if var000 < var035 then begin
+  if var000 < var036 then begin
+  if var000 < var037 then begin
+  if var000 < var038 then begin
+  if var000 < var039 then begin
+  if var000 < var040 then begin
+  if var000 < var041 then begin
+  if var000 < var042 then begin
+  if var000 < var043 then begin
+  if var000 < var044 then begin
+  if var000 < var045 then begin
+  if var000 < var046 then begin
+  if var000 < var047 then begin
+  if var000 < var048 then begin
+  if var000 < var049 then begin
+  if var000 < var050 then begin
+  if var000 < var051 then begin
+    small := var000;
+  end; end; end; end; end; end; end; end; end; end;
+  end; end; end; end; end; end; end; end; end; end;
+  end; end; end; end; end; end; end; end; end; end;
+  end; end; end; end; end; end; end; end; end; end;
+  end; end; end; end; end; end; end; end; end; end;
+  end;
+  write(small);
+end  .

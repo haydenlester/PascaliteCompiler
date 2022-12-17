@@ -1,0 +1,12 @@
+{contributed by Mason Barnhill, 2022-Dec-2}
+program mytest; {should allocate memory for exactly 2 constants}
+   const
+      s = -3;
+      a = 2;
+   var
+      t,b:integer;
+   begin
+      t := s + -3;
+      b := a + 2;
+      write(t,b);
+   end.

@@ -1,0 +1,24 @@
+program stage2no249;
+  const n = 10;
+  var pass, temp, v0, v1, v2, v3, v4, v5, v6, v7, v8, v9 : integer;
+begin
+  read(v0, v1, v2, v3, v4, v5, v6, v7, v8, v9);
+  write(v0, v1, v2, v3, v4, v5, v6, v7, v8, v9);
+
+  pass := 0;
+  while pass < n do
+    begin
+      if v0 > v1 then begin temp := v0; v0 := v1; v1 := temp; end;
+      if v1 > v2 then begin temp := v1; v1 := v2; v2 := temp; end;
+      if v2 > v3 then begin temp := v2; v2 := v3; v3 := temp; end;
+      if v3 > v4 then begin temp := v3; v3 := v4; v4 := temp; end;
+      if v4 > v5 then begin temp := v4; v4 := v5; v5 := temp; end;
+      if v5 > v6 then begin temp := v5; v5 := v6; v6 := temp; end;
+      if v6 > v7 then begin temp := v6; v6 := v7; v7 := temp; end;
+      if v7 > v8 then begin temp := v7; v7 := v8; v8 := temp; end;
+      if v8 > v9 then begin temp := v8; v8 := v9; v9 := temp; end;
+      pass := pass + 1;
+    end;
+
+  write(v0, v1, v2, v3, v4, v5, v6, v7, v8, v9);
+end.

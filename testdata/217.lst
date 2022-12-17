@@ -1,0 +1,29 @@
+STAGE2:  YOUR NAME(S)       Mon Nov 28 09:26:16 2022
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage2no217;
+    2|  var x,y,a,b:integer;
+    3|      c,d:integer;
+    4|  begin
+    5|    read(x);
+    6|    read(a);
+    7|    read(y);
+    8|    read(b);
+    9|    c := 0;
+   10|    if x > a then
+   11|      begin
+   12|        if (y < b) then
+   13|          begin
+   14|            c:=a+b;
+   15|            d:=y+2;
+   16|          end;
+   17|      end;
+   18|    else
+   19|      c:=1;
+   20|    d:=y+3;
+   21|    write(c);
+   22|    write(d);
+   23|end.
+
+COMPILATION TERMINATED      0 ERRORS ENCOUNTERED

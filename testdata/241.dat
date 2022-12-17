@@ -1,0 +1,15 @@
+program stage2no241;
+  const largest = 2147483647;
+  var   first, second, ct : integer;
+begin    
+  read(first);
+  read(second);
+  ct := 0;
+  while ct < 47 do
+    begin
+      write(first);
+      second := first + second;
+      first := second - first;
+      ct := ct + 1;
+    end;
+end.

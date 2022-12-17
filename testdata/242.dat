@@ -1,0 +1,22 @@
+program stage2no242;
+  var m, n, rem:integer;
+begin
+  read(m);
+  read(n);
+  write(m);
+  write(n);
+
+  if m < 0 then
+    m := -1 * m;
+  if n < 0 then
+    n := -n;
+
+  rem := m mod n;
+  while not (rem = 0) do
+    begin
+      m := n;
+      n := rem;
+      rem := m mod n;
+    end;
+  write(n);
+end.

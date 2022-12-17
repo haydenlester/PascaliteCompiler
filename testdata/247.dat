@@ -1,0 +1,27 @@
+program stage2no247;
+  var m, n, cmp:integer;
+begin
+  read(m);
+  read(n);
+  write(m);
+  write(n);
+
+  cmp := 0;
+  if m <= n then
+    if m = n then
+      cmp := 1;
+    else
+      cmp := 2;
+  write(cmp);
+
+  cmp := 0;
+  if m <= n then
+    begin
+      if m = n then
+        cmp := 1;
+    end;
+  else
+    cmp := 2;
+  write(cmp);
+
+end.

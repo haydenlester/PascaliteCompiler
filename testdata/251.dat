@@ -1,0 +1,4 @@
+{contributed by Joel King and William Blazier, 2021-Dec-05}
+program stage2no251;
+begin    
+end;  {Final end lacks period, has semicolon instead.}

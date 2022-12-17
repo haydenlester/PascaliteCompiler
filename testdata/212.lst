@@ -1,0 +1,14 @@
+STAGE2:  YOUR NAME(S)       Mon Nov 28 09:26:16 2022
+
+LINE NO.              SOURCE STATEMENT
+
+    1|program stage2no212;  {improper uses of Pascallite features.}
+    2|  var x,y,z:integer;  why:boolean;
+    3|  begin
+    4|    if why then
+    5|	   z:=0;    
+    6|	else 
+    7|	   z := -3; else 
+Error: Line 7: one of ";", "begin", "if", "read", "repeat", "while", "write", "end", or "until" expected
+
+COMPILATION TERMINATED      1 ERROR ENCOUNTERED

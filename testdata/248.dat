@@ -1,0 +1,85 @@
+program stage2no248;
+  var m, n, cmp, x, y:integer;
+begin
+  read(x);
+  read(y);
+  write(x);
+  write(y);
+
+  cmp := 0;
+  m := x; n := y;
+  if m < n then
+    cmp := cmp + 1;
+  cmp := cmp + 2;
+  write(cmp);
+
+  cmp := 0;
+  m := x; n := y;
+  while m < n do
+    begin
+      m := m + 1;
+      if m < n then
+        cmp := cmp + 1;
+    end;
+  write(cmp);
+
+  cmp := 0;
+  m := x; n := y;
+  if m < n then
+    cmp := 1;
+  ;
+  write(cmp);
+
+  cmp := 0;
+  m := x; n := y;
+  if m < n then
+    cmp := 1;
+  write(cmp);
+
+  cmp := 0;
+  m := x; n := y;
+  if m < n then
+    cmp := 1;
+  if m = n then
+    cmp := 2;
+  write(cmp);
+
+  cmp := 0;
+  m := x; n := y;
+  if m < n then
+    cmp := 1;
+  while m < n do
+    begin
+      m := m + 1;
+      if m < n then
+        cmp := cmp + 1;
+    end;
+  write(cmp);
+
+  cmp := 0;
+  m := x; n := y;
+  if m < n then
+    cmp := 1;
+  repeat
+    m := m + 1;
+    if m < n then
+      cmp := cmp + 1;
+  until m >= n;
+  write(cmp);
+
+  cmp := 0;
+  m := x; n := y;
+  if m < n then
+    cmp := 1;
+  begin
+    write(cmp);
+  end;
+
+  cmp := 0;
+  m := x; n := y;
+  if m < n then
+    cmp := 1;
+  read(cmp);
+  write(cmp);
+
+end.

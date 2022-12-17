@@ -1,0 +1,27 @@
+program stage2no245;
+  var m, n, rem:integer;
+      done:boolean;
+begin
+  read(m);
+  read(n);
+  write(m);
+  write(n);
+
+  if m < 0 then
+    m := -1 * m;
+  if n < 0 then
+    n := -n;
+
+  repeat
+    begin
+      rem := m mod n;
+      done := rem = 0;
+      if not done then
+        begin
+          m := n;
+          n := rem;
+        end;
+    end;
+  until done;
+  write(n);
+end.
