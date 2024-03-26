@@ -5,6 +5,6 @@ Runs on Unix or Linux, NASM code utilizes ```Along32.inc``` and will not assembl
 
 Please see test cases in ```PascaliteCompiler/testdata``` for sample input and output files
 
-Please see documentation in ```PascaliteCompiler/documentation``` for more information on syntax and the compiler's overall structure
+Please see documentation in ```PascaliteCompiler/documentation``` for grammar specifications.
 
 To build the compiler, simply use the provided makefile
